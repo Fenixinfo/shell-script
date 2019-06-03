@@ -1,0 +1,13 @@
+#!/bin/bash
+a=2
+b=6
+if [ $a -lt $b ]
+then
+   echo 'a menor $b!'
+elif [ $a -gt $b ]
+then
+   echo '$a maior $b!'
+elif [ $a -eq $b ]
+then	
+   echo '$a igual $b!'
+fi
